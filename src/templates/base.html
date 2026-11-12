@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}HireNova{% endblock %}</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#home">
+                HireNova<span>.</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarMenu">
+
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jobs">Explore Jobs</a>
+                    </li>
+
+                    <li class="nav-item" id="navMyApplications" style="display:none;">
+                        <a class="nav-link" href="#myApplications">My Applications</a>
+                    </li>
+
+                    <li class="nav-item" id="navAdminDashboard" style="display:none;">
+                        <a class="nav-link" href="#adminDashboard">Admin Dashboard</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item" id="navLogin">
+                        <a class="nav-link" href="#login">Login</a>
+                    </li>
+
+                    <li class="nav-item" id="navRegister">
+                        <a class="nav-link register-link" href="#register">Get Started</a>
+                    </li>
+
+                    <li class="nav-item" id="navLogout" style="display:none;">
+                        <button class="nav-link" id="logoutButton" type="button">Logout</button>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+
+            <h4>HireNova<span>.</span></h4>
+
+            <p>Find opportunities. Build your future.</p>
+
+            <p class="copyright">
+                &copy; 2026 HireNova. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    {% block scripts %}
+    {% endblock %}
+
+</body>
+
+</html>

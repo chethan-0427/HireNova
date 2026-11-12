@@ -1,0 +1,337 @@
+/* General styling */
+
+body {
+    background-color: #0b0b0b;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #111111 !important;
+    padding: 18px 0;
+    border-bottom: 1px solid #292929;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #cccccc !important;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Homepage hero section */
+
+.hero-section {
+    min-height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 70px 0;
+}
+
+.hero-tag {
+    color: #999999;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.hero-content h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.hero-content h1 span {
+    color: #999999;
+}
+
+.hero-description {
+    color: #aaaaaa;
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+/* Buttons */
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 768px) {
+
+    .hero-content {
+        padding: 60px 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .hero-tag {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .hero-content h1 {
+        font-size: 35px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+/* General sections */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 85px;
+}
+
+.content-section {
+    padding: 100px 0;
+    border-top: 1px solid #292929;
+    min-height: 450px;
+}
+
+.content-section h2 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    color: #aaaaaa;
+    line-height: 1.8;
+}
+
+.section-tag {
+    color: #999999;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Register button */
+
+.register-link {
+    border: 1px solid #777777;
+    border-radius: 5px;
+    padding: 8px 18px !important;
+    margin-left: 12px;
+}
+
+.register-link:hover {
+    background-color: #ffffff;
+    color: #111111 !important;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #111111;
+    border-top: 1px solid #292929;
+    padding: 45px 0 20px;
+}
+
+.footer h4 {
+    font-weight: 700;
+}
+
+.footer h4 span,
+.navbar-brand span {
+    color: #999999;
+}
+
+.footer p {
+    color: #999999;
+    margin-top: 10px;
+}
+
+.footer .copyright {
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .content-section {
+        padding: 70px 0;
+    }
+
+    .content-section h2 {
+        font-size: 30px;
+    }
+
+    .register-link {
+        margin-left: 0;
+        display: inline-block;
+        margin-top: 8px;
+    }
+}
+
+/* Login form */
+
+.login-box {
+    max-width: 450px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.login-box .form-control {
+    background-color: #171717;
+    color: #ffffff;
+    border: 1px solid #444444;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.login-box .form-control:focus {
+    background-color: #171717;
+    color: #ffffff;
+    border-color: #999999;
+    box-shadow: none;
+}
+
+.login-box .form-control::placeholder {
+    color: #888888;
+}
+
+.login-box .form-label {
+    color: #cccccc;
+}
+
+@media (max-width: 576px) {
+    .login-box {
+        max-width: 100%;
+    }
+}
+
+/* Registration form */
+
+.register-box {
+    max-width: 450px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.register-box .form-control {
+    background-color: #171717;
+    color: #ffffff;
+    border: 1px solid #444444;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.register-box .form-control:focus {
+    background-color: #171717;
+    color: #ffffff;
+    border-color: #999999;
+    box-shadow: none;
+}
+
+.register-box .form-control::placeholder {
+    color: #888888;
+}
+
+.register-box .form-label {
+    color: #cccccc;
+}
+
+@media (max-width: 576px) {
+    .register-box {
+        max-width: 100%;
+    }
+}
+
+/* Job Cards */
+
+.job-card {
+    background-color: #151515;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 25px;
+    height: 100%;
+    transition: border-color 0.2s ease;
+}
+
+.job-card:hover {
+    border-color: #888888;
+}
+
+.job-card h4 {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.job-card p {
+    color: #aaaaaa;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+#addJobForm input,
+#addJobForm textarea {
+    max-width: 500px;
+    background-color: #fff;
+}
+
+
+/* Hide private sections by default */
+
+#login,
+#register,
+#forgotPassword,
+#resetPassword,
+#myApplications,
+#adminDashboard {
+    display: none;
+}
