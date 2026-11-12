@@ -231,73 +231,73 @@ HireNova includes an automated regression test suite built on Python's `unittest
 The visual layout of the HireNova platform has been validated across desktop and mobile screen resolutions. The output screenshot artifacts are structured inside the repository under `assets/screenshots/`:
 
 ### Figure 1: Landing Page & Hero Section
-![Landing Page Hero](../assets/screenshots/01_landing_hero.svg)
+![Landing Page Hero](../assets/screenshots/01_landing_hero.png)
 *Description: Landing page showing application branding, headline call-to-action buttons ("Explore Jobs", "Create Account"), and the top navigation bar.*
 
 ---
 
 ### Figure 2: Job Opportunities & Dynamic Search
-![Job Search](../assets/screenshots/02_job_search_filters.svg)
+![Job Search](../assets/screenshots/02_job_search_filters.png)
 *Description: Opportunities grid displaying job cards with title, company, location, salary tags, and the live search filter.*
 
 ---
 
 ### Figure 3: Job Specification Modal
-![Job Details Modal](../assets/screenshots/03_job_details_modal.svg)
+![Job Details Modal](../assets/screenshots/03_job_details_modal.png)
 *Description: Modal dialog presenting comprehensive role requirements and the "Apply Now" trigger button.*
 
 ---
 
 ### Figure 4: User Registration & Validation
-![User Registration](../assets/screenshots/04_user_registration.svg)
+![User Registration](../assets/screenshots/04_user_registration.png)
 *Description: Registration interface demonstrating input fields for name, email, and password with validation error handling.*
 
 ---
 
 ### Figure 5: User Login Interface
-![User Login](../assets/screenshots/05_user_login.svg)
+![User Login](../assets/screenshots/05_user_login.png)
 *Description: Secure authentication interface establishing authenticated session credentials.*
 
 ---
 
 ### Figure 6: Job Application Submission Feedback
-![Application Success](../assets/screenshots/06_job_application_submission.svg)
+![Application Success](../assets/screenshots/06_job_application_submission.png)
 *Description: Real-time feedback notification indicating successful application submission.*
 
 ---
 
 ### Figure 7: Duplicate Application Prevention
-![Duplicate Application Alert](../assets/screenshots/07_duplicate_application_prevention.svg)
+![Duplicate Application Alert](../assets/screenshots/07_duplicate_application_prevention.png)
 *Description: Conflict alert (HTTP 409) preventing candidates from applying twice for the same vacancy.*
 
 ---
 
 ### Figure 8: Jobseeker Application Status Tracker
-![My Applications Status](../assets/screenshots/08_my_applications_status_tracking.svg)
+![My Applications Status](../assets/screenshots/08_my_applications_status_tracking.png)
 *Description: "My Applications" dashboard displaying submitted applications with live status badges (Pending, Shortlisted, Rejected).*
 
 ---
 
 ### Figure 9: Admin Dashboard Overview
-![Admin Dashboard](../assets/screenshots/09_admin_dashboard_overview.svg)
+![Admin Dashboard](../assets/screenshots/09_admin_dashboard_overview.png)
 *Description: Recruiter control center listing all received applicant profiles across all open positions.*
 
 ---
 
 ### Figure 10: Admin Job Posting Interface
-![Post New Job](../assets/screenshots/10_admin_post_new_job.svg)
+![Post New Job](../assets/screenshots/10_admin_post_new_job.png)
 *Description: Modal form for posting and updating job vacancies with title, location, salary, and job description.*
 
 ---
 
 ### Figure 11: Application Review & Status Transition
-![Update Status](../assets/screenshots/11_admin_update_application_status.svg)
+![Update Status](../assets/screenshots/11_admin_update_application_status.png)
 *Description: Admin status selector transitioning candidates between Pending, Shortlisted, and Rejected.*
 
 ---
 
 ### Figure 12: Password Recovery Flow
-![Password Reset](../assets/screenshots/12_password_reset_flow.svg)
+![Password Reset](../assets/screenshots/12_password_reset_flow.png)
 *Description: Secure token generation and reset form for account recovery.*
 
 ---

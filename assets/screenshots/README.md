@@ -39,3 +39,4 @@ This directory contains the visual output artifacts for the HireNova Job Portal.
    - Use `Windows + Shift + S` or Chrome DevTools Device Mode (`Ctrl + Shift + M`).
    - Save screenshots with 1920x1080 resolution (or responsive mobile view where applicable).
    - Save files directly into this directory (`assets/screenshots/`) using the filenames listed in the table above.
+

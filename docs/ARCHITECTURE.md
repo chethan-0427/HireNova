@@ -212,3 +212,4 @@ sequenceDiagram
    ```
 4. **SQL Injection Mitigation**: All database queries utilize parameterized queries (`?` placeholders) throughout `src/app.py` and `src/database.py`, preventing SQL injection vectors.
 5. **Time-Limited Password Resets**: Tokens are generated via `secrets.token_urlsafe(32)` and enforce a strict 15-minute expiration timestamp with automatic invalidation upon use.
+

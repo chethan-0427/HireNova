@@ -129,18 +129,18 @@ HireNova/
 │
 └── assets/
     └── screenshots/                # Output screenshots & UI evidence
-        ├── 01_landing_hero.svg
-        ├── 02_job_search_filters.svg
-        ├── 03_job_details_modal.svg
-        ├── 04_user_registration.svg
-        ├── 05_user_login.svg
-        ├── 06_job_application_submission.svg
-        ├── 07_duplicate_application_prevention.svg
-        ├── 08_my_applications_status_tracking.svg
-        ├── 09_admin_dashboard_overview.svg
-        ├── 10_admin_post_new_job.svg
-        ├── 11_admin_update_application_status.svg
-        ├── 12_password_reset_flow.svg
+        ├── 01_landing_hero.png
+        ├── 02_job_search_filters.png
+        ├── 03_job_details_modal.png
+        ├── 04_user_registration.png
+        ├── 05_user_login.png
+        ├── 06_job_application_submission.png
+        ├── 07_duplicate_application_prevention.png
+        ├── 08_my_applications_status_tracking.png
+        ├── 09_admin_dashboard_overview.png
+        ├── 10_admin_post_new_job.png
+        ├── 11_admin_update_application_status.png
+        ├── 12_password_reset_flow.png
         └── README.md
 ```
 
@@ -231,18 +231,18 @@ The platform interface is validated across desktop and mobile devices. Full reso
 
 | View | Screenshot Artifact | Description |
 |---|---|---|
-| **Landing Hero** | ![Landing Hero](assets/screenshots/01_landing_hero.svg) | Homepage featuring headline call-to-action buttons and navigation. |
-| **Job Search** | ![Job Search](assets/screenshots/02_job_search_filters.svg) | Real-time filtered job cards with compensation and location tags. |
-| **Job Details Modal** | ![Job Details](assets/screenshots/03_job_details_modal.svg) | Modal displaying complete position specifications and "Apply" button. |
-| **User Registration** | ![Registration](assets/screenshots/04_user_registration.svg) | Candidate registration form with input validation. |
-| **User Login** | ![Login](assets/screenshots/05_user_login.svg) | Session authentication dialog. |
-| **Application Success** | ![Apply Success](assets/screenshots/06_job_application_submission.svg) | Feedback alert confirming candidate application submission. |
-| **Duplicate Prevention** | ![Duplicate Alert](assets/screenshots/07_duplicate_application_prevention.svg) | System alert preventing double submissions for the same role. |
-| **My Applications** | ![My Applications](assets/screenshots/08_my_applications_status_tracking.svg) | Candidate status dashboard (`Pending`, `Shortlisted`, `Rejected`). |
-| **Admin Dashboard** | ![Admin Dashboard](assets/screenshots/09_admin_dashboard_overview.svg) | Recruiter control panel displaying all received applications. |
-| **Post/Edit Job** | ![Post Job](assets/screenshots/10_admin_post_new_job.svg) | Administrative form for posting new job openings. |
-| **Update Status** | ![Update Status](assets/screenshots/11_admin_update_application_status.svg) | Real-time candidate review status transition controls. |
-| **Password Reset** | ![Password Reset](assets/screenshots/12_password_reset_flow.svg) | Token-based password recovery interface. |
+| **Landing Hero** | ![Landing Hero](assets/screenshots/01_landing_hero.png) | Homepage featuring headline call-to-action buttons and navigation. |
+| **Job Search** | ![Job Search](assets/screenshots/02_job_search_filters.png) | Real-time filtered job cards with compensation and location tags. |
+| **Job Details Modal** | ![Job Details](assets/screenshots/03_job_details_modal.png) | Modal displaying complete position specifications and "Apply" button. |
+| **User Registration** | ![Registration](assets/screenshots/04_user_registration.png) | Candidate registration form with input validation. |
+| **User Login** | ![Login](assets/screenshots/05_user_login.png) | Session authentication dialog. |
+| **Application Success** | ![Apply Success](assets/screenshots/06_job_application_submission.png) | Feedback alert confirming candidate application submission. |
+| **Duplicate Prevention** | ![Duplicate Alert](assets/screenshots/07_duplicate_application_prevention.png) | System alert preventing double submissions for the same role. |
+| **My Applications** | ![My Applications](assets/screenshots/08_my_applications_status_tracking.png) | Candidate status dashboard (`Pending`, `Shortlisted`, `Rejected`). |
+| **Admin Dashboard** | ![Admin Dashboard](assets/screenshots/09_admin_dashboard_overview.png) | Recruiter control panel displaying all received applications. |
+| **Post/Edit Job** | ![Post Job](assets/screenshots/10_admin_post_new_job.png) | Administrative form for posting new job openings. |
+| **Update Status** | ![Update Status](assets/screenshots/11_admin_update_application_status.png) | Real-time candidate review status transition controls. |
+| **Password Reset** | ![Password Reset](assets/screenshots/12_password_reset_flow.png) | Token-based password recovery interface. |
 
 ---
 
